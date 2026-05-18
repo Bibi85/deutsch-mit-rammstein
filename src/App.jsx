@@ -25,6 +25,29 @@ const SONGS = [
     ],
   },
   {
+    id: "ich-will", title: "Ich Will", level: "A1", levelColor: "#00ff88", year: 2001, theme: "Verbi modali: wollen",
+    vocabulary: [
+      { german: "wollen", ipa: "ˈvɔlən", italian: "volere", example: "Ich will", pos: "verbo modale" },
+      { german: "sehen", ipa: "ˈzeːən", italian: "vedere", example: "Ich will sehen", pos: "verbo" },
+      { german: "hören", ipa: "ˈhøːʁən", italian: "sentire / ascoltare", example: "Ich will hören", pos: "verbo" },
+      { german: "verstehen", ipa: "fɛɐ̯ˈʃteːən", italian: "capire", example: "Ich will verstehen", pos: "verbo" },
+      { german: "vertrauen", ipa: "fɛɐ̯ˈtʁaʊ̯ən", italian: "fidarsi / avere fiducia", example: "Ihr sollt mir vertrauen", pos: "verbo" },
+      { german: "brennen", ipa: "ˈbʁɛnən", italian: "bruciare", example: "Ich will brennen", pos: "verbo" },
+    ],
+    grammar: { title: "Il verbo modale 'wollen' (volere)", explanation: "In tedesco i verbi modali sono fondamentali e si usano moltissimo. 'Wollen' (volere) si coniuga in modo irregolare: ich will, du willst, er/sie will, wir wollen, ihr wollt, sie wollen. Il verbo modale va in seconda posizione, mentre il secondo verbo (infinito) va in fondo alla frase — la famosa Satzklammer. 'Ich Will' di Rammstein è un manuale vivente di questa struttura.", example: "Ich will sehen.\n→ will (modale, pos. 2) + sehen (infinito, in fondo)\n\nIch will hören.\nIch will verstehen.\n\nSchema: soggetto + WILL + ... + infinito" },
+    curiosity: { text: "Ich Will è una delle canzoni più esplicitamente politiche dei Rammstein — un atto d'accusa contro i media e la cultura dello spettacolo. Il testo è costruito come una lista di richieste sempre più assurde rivolte al pubblico: 'voglio vedere, voglio sentire, voglio che vi fidate di me'. Il video simula una rapina in banca trasmessa in diretta TV. La critica al sensazionalismo mediatico è feroce.", funFact: "'Wollen' è uno dei sei verbi modali tedeschi: können (potere/sapere), müssen (dovere), sollen (dover fare per altri), dürfen (avere il permesso), mögen (piacere/volere gentilmente), wollen (volere). Sono tra le prime cose che si imparano — e le più usate nella vita quotidiana." },
+    usefulPhrases: [
+      { german: "Ich will einen Kaffee.", ipa: "ɪç vɪl ˈaɪ̯nən ˈkafɛ", italian: "Voglio un caffè." },
+      { german: "Was willst du machen?", ipa: "vas vɪlst duː ˈmaxən", italian: "Cosa vuoi fare?" },
+      { german: "Ich will das verstehen.", ipa: "ɪç vɪl das fɛɐ̯ˈʃteːən", italian: "Voglio capire questo." },
+    ],
+    quiz: [
+      { q: "Come si coniuga 'wollen' alla prima persona singolare?", options: ["ich wollen", "ich wolle", "ich will", "ich wille"], correct: 2 },
+      { q: "Cosa significa 'hören'?", options: ["vedere", "parlare", "sentire/ascoltare", "toccare"], correct: 2 },
+      { q: "Dove va l'infinito quando si usa un verbo modale?", options: ["In prima posizione", "In seconda posizione", "Subito dopo il modale", "In fondo alla frase"], correct: 3 },
+    ],
+  },
+  {
     id: "sonne", title: "Sonne", level: "A1", levelColor: "#00ff88", year: 2001, theme: "Imperativo e numeri",
     vocabulary: [
       { german: "die Sonne", ipa: "diː ˈzɔnə", italian: "il sole", example: "Hier kommt die Sonne", pos: "sostantivo" },
@@ -140,6 +163,29 @@ const SONGS = [
     ],
   },
   {
+    id: "keine-lust", title: "Keine Lust", level: "B1", levelColor: "#ffaa00", year: 2004, theme: "Negazione con kein e stati d'animo",
+    vocabulary: [
+      { german: "die Lust", ipa: "diː lʊst", italian: "la voglia / il desiderio / il piacere", example: "Keine Lust", pos: "sostantivo" },
+      { german: "keine", ipa: "ˈkaɪ̯nə", italian: "nessuno/a (negazione di un sostantivo)", example: "Keine Lust", pos: "articolo negativo" },
+      { german: "müde", ipa: "ˈmyːdə", italian: "stanco/a", example: "Ich bin so müde", pos: "aggettivo" },
+      { german: "fett", ipa: "fɛt", italian: "grasso/a (colloquiale: pigro, appesantito)", example: "Ich bin so fett", pos: "aggettivo" },
+      { german: "langweilig", ipa: "ˈlaŋvaɪ̯lɪç", italian: "noioso/a", example: "Das ist langweilig", pos: "aggettivo" },
+      { german: "aufstehen", ipa: "ˈaʊ̯fʃteːən", italian: "alzarsi", example: "Ich will nicht aufstehen", pos: "verbo separabile" },
+    ],
+    grammar: { title: "La negazione con 'kein': negare i sostantivi", explanation: "In tedesco esistono due tipi di negazione: 'nicht' (non) nega verbi, aggettivi e avverbi; 'kein' (nessuno/a) nega i sostantivi. 'Kein' si declina come l'articolo indeterminativo 'ein': kein Mann, keine Frau, kein Kind. 'Keine Lust' usa 'keine' perché 'Lust' è femminile. È una delle distinzioni più importanti per chi impara il tedesco.", example: "Keine Lust! (femm. → keine)\nKein Problem! (neutro → kein)\nKein Mann! (masch. → kein)\n\nnicht → nega verbi/aggettivi:\nIch schlafe nicht. (Non dormo.)\nkein → nega sostantivi:\nIch habe keine Lust. (Non ho voglia.)" },
+    curiosity: { text: "Keine Lust è la canzone più autoironica dei Rammstein — un inno alla pigrizia assoluta. Il testo è una lista di cose che il cantante non ha voglia di fare, incluso alzarsi dal letto. Il video è famoso perché i membri della band indossano tute imbottite per sembrare enormemente sovrappeso. È una parodia dei video metal muscolosi — ironia rara per una band nota per l'estetica industriale.", funFact: "La parola 'Lust' è un falso amico con l'inglese 'lust' (che ha connotazione sessuale). In tedesco 'Lust' significa semplicemente voglia, piacere, desiderio — 'Ich habe Lust auf Pizza' vuol dire 'ho voglia di pizza'. La parola esiste anche in italiano come prestito: 'lustro', 'illustre' vengono dalla stessa radice latina, ma il tedesco l'ha conservata con significato più diretto." },
+    usefulPhrases: [
+      { german: "Ich habe keine Lust.", ipa: "ɪç ˈhaːbə ˈkaɪ̯nə lʊst", italian: "Non ho voglia." },
+      { german: "Kein Problem!", ipa: "kaɪ̯n pʁoˈbleːm", italian: "Nessun problema!" },
+      { german: "Ich bin so müde.", ipa: "ɪç bɪn zoː ˈmyːdə", italian: "Sono così stanco/a." },
+    ],
+    quiz: [
+      { q: "Quando si usa 'kein' invece di 'nicht'?", options: ["Per negare i verbi", "Per negare i sostantivi", "Solo al plurale", "Solo con aggettivi"], correct: 1 },
+      { q: "Come si dice 'nessun problema' in tedesco?", options: ["Nicht Problem", "Kein Problem", "Keine Problem", "Keinen Problem"], correct: 1 },
+      { q: "Cosa significa 'müde'?", options: ["felice", "arrabbiato", "stanco", "annoiato"], correct: 2 },
+    ],
+  },
+  {
     id: "rosenrot", title: "Rosenrot", level: "B2", levelColor: "#ff4444", year: 2005, theme: "Verbi modali e Satzklammer",
     vocabulary: [
       { german: "die Rose", ipa: "diː ˈʁoːzə", italian: "la rosa", example: "Rosenrot", pos: "sostantivo" },
@@ -221,13 +267,11 @@ export default function App() {
   const [activeTab, setActiveTab] = useState("vocab");
   const [quizState, setQuizState] = useState({ current: 0, answers: [], done: false });
   const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [aiExplanation, setAiExplanation] = useState("");
-  const [aiLoading, setAiLoading] = useState(false);
   const [showIpa, setShowIpa] = useState({});
 
   const grouped = LEVEL_ORDER.reduce((acc, lvl) => { acc[lvl] = SONGS.filter(s => s.level === lvl); return acc; }, {});
 
-  function openSong(song) { setSelectedSong(song); setActiveTab("vocab"); setAiExplanation(""); setShowIpa({}); setScreen("song"); }
+  function openSong(song) { setSelectedSong(song); setActiveTab("vocab"); setShowIpa({}); setScreen("song"); }
   function goQuiz() { setQuizState({ current: 0, answers: [], done: false }); setSelectedAnswer(null); setScreen("quiz"); }
   function toggleIpa(idx) { setShowIpa(prev => ({ ...prev, [idx]: !prev[idx] })); }
 
@@ -241,19 +285,6 @@ export default function App() {
       if (nextQ >= selectedSong.quiz.length) { setQuizState({ current: nextQ, answers: newAnswers, done: true }); }
       else { setQuizState({ current: nextQ, answers: newAnswers, done: false }); setSelectedAnswer(null); }
     }, 900);
-  }
-
-  async function askAI() {
-    setAiLoading(true); setAiExplanation("");
-    try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ model: "claude-sonnet-4-20250514", max_tokens: 1000, messages: [{ role: "user", content: `Sei un insegnante di tedesco esperto e appassionato di musica rock. Spiega in italiano, in modo coinvolgente, il concetto grammaticale estratto da "${selectedSong.title}" dei Rammstein:\n\n${selectedSong.grammar.title}\n\n${selectedSong.grammar.explanation}\n\nAggiungi 2-3 esempi pratici dalla vita quotidiana e un consiglio mnemonico. Usa riferimenti ai Rammstein per rendere tutto più divertente. Max 200 parole.` }] }),
-      });
-      const data = await res.json();
-      setAiExplanation(data.content?.map(b => b.text || "").join("") || "Nessuna risposta.");
-    } catch { setAiExplanation("Errore nel caricamento. Riprova!"); }
-    setAiLoading(false);
   }
 
   const score = quizState.answers.filter(Boolean).length;
@@ -355,15 +386,6 @@ export default function App() {
                     <pre style={{ fontSize: 13, color: "#ccc", fontFamily: "monospace", lineHeight: 1.8, whiteSpace: "pre-wrap" }}>{selectedSong.grammar.example}</pre>
                   </div>
                 </div>
-                <button className="fb" style={{ width: "100%", background: "linear-gradient(135deg,#1a0808,#2a0f0f)", border: "1px solid #ff4444", color: "#ff4444", fontFamily: "'Bebas Neue',sans-serif", fontSize: 16, letterSpacing: 3, padding: 14, borderRadius: 3, marginBottom: 16, animation: "pulse 2.5s infinite" }} onClick={askAI} disabled={aiLoading}>
-                  {aiLoading ? "⏳ Caricamento..." : "🔥 Approfondisci con AI"}
-                </button>
-                {aiExplanation && (
-                  <div style={{ ...S.card, borderColor: "#2a1a1a" }}>
-                    <div style={{ fontSize: 11, color: "#ff4444", letterSpacing: 2, marginBottom: 10, fontWeight: 600 }}>🤖 Spiegazione AI</div>
-                    <p style={{ fontSize: 14, color: "#aaa", lineHeight: 1.7, fontWeight: 300 }}>{aiExplanation}</p>
-                  </div>
-                )}
               </div>
             )}
 
